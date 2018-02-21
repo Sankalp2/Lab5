@@ -32,6 +32,38 @@ public class BankAccount {
          */
     }
 
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public double getInterestEarned() {
+        return interestEarned;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public void setInterestEarned(double interestEarned) {
+        this.interestEarned = interestEarned;
+    }
+
     /*
      * Implement getters and setters as appropriate for private variables.
      */
